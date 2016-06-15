@@ -1,0 +1,26 @@
+var info = {
+	"1" : {
+		"row1": "Marvin says", 
+		"row2": "'Check out our website!'", 
+		"row3": "www.radiograpevine.com", 
+		"image": "images/static_qr_code_without_logo.png"
+	},
+	"2" : {
+		"row1": "Moss Bros", 
+		"row2": "supports", 
+		"row3": "Radio Grapevine", 
+		"image": "images/supporters/mossbros.jpg"
+	},
+	"3" : {
+		"row1": "NHS Lothian", 
+		"row2": "supports", 
+		"row3": "Radio Grapevine", 
+		"image": "images/supporters/NHSlothian.jpg"
+	},
+	"4" : {
+		"row1": "Marvin says", 
+		"row2": "'Please respect the on-air rules'", 
+		"row3": "Put your phone on silent", 
+		"image": "images/no_mobile.jpg"
+	}
+}

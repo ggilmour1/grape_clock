@@ -1,0 +1,5 @@
+var controlState = { 
+  "micState": 1,
+  "autoState": 1,
+  "phoneState": 0
+}

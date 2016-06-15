@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Studio Clock</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"  />
+		<link rel="stylesheet" type="text/css" href="file://localhost/Users/ggilmour1/Documents/RadioGrapevine/stylesheets/clockstyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
+		<!--<script type="text/javascript" src="javascripts/programs.json"></script>
+		<script type="text/javascript" src="javascripts/info.json"></script>-->
+		<script src="javascripts/rgScripts1.js"></script>
+
+	</head>
+	
+	<body>
+		<div id="container-fluid">
+			<div class="row">
+				<!-- The clock itself -->
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="clock-container">
+					<iframe class="clock-inner" id="clock-inner" src='pages/clock.html'></iframe>
+				</div>
+				<!-- Content displayed to the right of the clock -->
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="status">
+					<div id="status-body">	
+	    				<iframe class="control-body" id="control-body" src='pages/control.html'></iframe>
+	    			</div>
+                </div>
+			</div>	
+		</div>
+	</body>
+</html>

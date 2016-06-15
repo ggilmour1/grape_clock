@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Studio Clock</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"  />
+ 
+ 
+		<link rel="stylesheet" type="text/css" href="file://localhost/Users/ggilmour1/Documents/RadioGrapevine/stylesheets/clockstyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
+		<script type="text/javascript" src="javascripts/programs.json"></script>
+		<script type="text/javascript" src="javascripts/info.json"></script>
+		<script src="javascripts/rgScripts.js"></script>
+
+	</head>
+	
+	<body>
+		
+		<div id="header">
+ 			<h1>Radio Grapevine</h1>
+		</div>
+		<div id="container-fluid">
+			<div class="row">
+				<!-- Content displayed to the left of the clock -->
+				<!-- Replace this with an iframe -->
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="info-block">
+					<!-- page iframe goes here -->
+					<div id="info-header">
+						<h3>INFORMATION</h3>
+					</div> 
+					<div id="info-body"></div>
+					<div class="info-light" id="info-light"></div>	
+				</div>
+		
+				<!-- The clock itself -->
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="clock-container">
+					<iframe class="clock-inner" id="clock-inner" src='pages/clock.html' width="700" height="700" align-self="right"></iframe>
+				</div>
+				
+				<!-- Content displayed to the right of the clock -->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" id="onair-block">
+					<div id="onair-header">
+						<h3>ON AIR NOW</h3>
+	    			</div>
+
+	    			<div id="onair-body"></div>
+	    			
+					<div class="light" id="onair-light" style="float: center; width: 100%;">
+						<img src="images/mic_off.png" alt="mic live" id="miclive"></img>
+					</div>
+                  </div>
+			</div>	
+		</div>
+	</body>
+	<footer>
+		<div id="footer">
+			<span>Copyright &copy; radiograpevine.com 2015.  West Lothian Hospital Broadcasting Service (Radio Grapevine) is a Registered Charity in Scotland, Number SC022224    </span>
+		</div>
+	</footer>
+</html>

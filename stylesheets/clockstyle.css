@@ -1,0 +1,90 @@
+
+
+body {
+    background-color:black;
+}
+
+#container-fluid {
+  height:100%;
+}
+
+#clock-container {
+  display:inline-block;
+  float:left;
+  margin:0;
+  height:800px;
+  width:800px; 
+}
+
+#clock-inner {
+  border: 2px solid black;
+  width:800px; 
+  height:100%; 
+  align-self:right;
+}
+
+#control-body {
+  width:500px; 
+  height:800px; 
+  border:2px solid black;
+}
+
+#mic-status {
+  margin: 0 auto;
+  padding-top:25px;
+}
+
+#studio-status {
+  float:  middle;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 10px;
+  vertical-align: center;
+
+}
+
+.mic-status {
+  text-align:center;
+  display:block;
+  padding-top: 60px;
+}
+        
+.alert-status: before, .alert-status: after {
+  overflow: hidden;
+  content: "";
+  text-align:center;
+  display:table;
+  padding-top: 10px;
+}
+
+.alert-status: after {
+  clear: both; 
+}
+
+.auto-status {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.auto-status img {
+  height: auto;
+  padding-left: 35px;
+  vertical-align: left;
+}
+
+.phone-status {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.phone-status img {
+  height: auto;
+  padding-left: 10px;
+  vertical-align: right;
+}
+
+.studio-status {
+  text-align:center;
+  display:block;
+  padding-top: 5px;
+}
